@@ -7,21 +7,37 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/style.css">
-    <title>Exercice 6 icones</title>
+    <title>Exercice 7 responsive</title>
 </head>
 
 <body>
-    <div class="container-fluid text-center h4">
-        <div class="h4">Formations by "La Manu"</div>
-        <h5><span class="badge badge-info">C#</span>
-            <span class="badge badge-info">.NET</span>
-        </h5>
+    <div class="card text-center" style="width: 538px">
+        <div class="card-body">
+            <h1 class="h4"><strong> La Manu Le Havre</strong></h1>
+            <p class="card-text">L'école des métiers du numérique</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#coinCoin">+ d'infos</button>
+        </div>
     </div>
 
+    <div class="modal" tabindex="-1" id="coinCoin">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title h4"><strong>La Manu Le Havre</strong></h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bg-info text-white text-center">
+                    <p>https://lamanu.fr/le-havre</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">X Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- <div class="badge badge-primary text-wrap" style="width: 6rem;">
-        This text should wrap.
-      </div> -->
 
 
 
